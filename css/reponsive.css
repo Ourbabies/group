@@ -1,0 +1,256 @@
+/* table */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .main {
+        overflow: hidden;
+    }
+
+    .review__wel {
+        width: 97%;
+    }
+
+    .review__img {
+        padding: 30px;
+    }
+
+    .user__list {
+        flex-wrap: wrap;
+    }
+
+    .user__item {
+        width: 43%;
+        margin-bottom: 10px;
+    }
+
+    .review__profile {
+        display: inline-block;
+        margin-bottom: -10px;
+        width: 92%;
+    }
+
+    .profile__name {
+        display: table;
+        margin: auto;
+    }
+
+    .profile__video__name {
+        padding-top: 30px;
+    }
+
+    .profile__video__video {
+        text-align: center;
+    }
+
+    .review__member {
+        text-align: center;
+    }
+
+    .review__member b {
+        margin-left: 0 !important;
+    }
+
+    .review__product {
+        width: 92%;
+    }
+
+    .footer {
+        padding-left: 165px;
+    }
+}
+
+/* mobi */
+@media screen and (max-width: 739px) {
+
+
+    .main {
+        overflow: hidden;
+    }
+
+    .header {
+        position: fixed;
+        inset: 0;
+        height: 75px;
+    }
+
+    .narbar {
+        width: 100vw;
+
+    }
+
+    .narbar__logo img {
+        width: 120px;
+    }
+
+
+    .narbar__item a {
+        font-size: 1.2rem;
+        width: 178px;
+        display: inline-block;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 14px;
+    }
+
+    .sidebar {
+        position: relative;
+        height: auto;
+        width: 95%;
+    }
+
+    .sidebar__list {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .sidebar__item {
+        margin: 0 4px;
+    }
+
+    .sidebar__link lord-icon {
+        width: 10px;
+    }
+
+    .sidebar__name {
+        font-size: 1.2rem;
+    }
+
+    .content {
+        margin-top: 100px;
+        margin-left: 10px;
+        width: 95%;
+        /* margin-left: 10px; */
+    }
+
+    .review__wel {
+        margin: 0;
+    }
+
+    .review__list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review__about {
+
+        width: 100%;
+    }
+
+    .review__name {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .review__title {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .review__img {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .review__botton {
+        width: 100%;
+
+
+    }
+
+    .botton__list {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .review__member {
+        font-size: 2.7rem;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .user__list {
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .user__item {
+        width: 37%;
+        display: inline-block;
+        margin-bottom: 28px;
+    }
+
+    .review__profile {
+        display: inline-block;
+        margin: 10px 0;
+        width: 100%;
+
+    }
+
+    .profile__video__name {
+        padding-top: 40px;
+    }
+
+    .profile__name {
+        margin: auto;
+        display: table;
+    }
+
+    .review__product {
+        width: 100%;
+    }
+
+    .review__member b {
+        margin: 0 !important;
+    }
+
+    .sidebar__item.sidebar--active {
+        background: rgba(255, 255, 255, .55) !important;
+        box-shadow: none;
+        box-shadow: 0 0 4px 0 rgb(1 1 1 / 20%);
+        border-radius: 20px;
+    }
+
+    .review__name {
+        font-size: 2.8rem;
+    }
+
+    .profile__video__video {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .container {
+        padding-left: 0;
+    }
+
+    .user__item {
+        width: 80%;
+    }
+
+    .review__profile {
+        padding: 30px 26px;
+    }
+
+    .profile__video__video1 {
+        width: 292px;
+        height: 300px;
+    }
+
+    .review__product {
+        padding: 30px 10px;
+    }
+
+    .review__member {
+        margin-left: 0 !important;
+    }
+}
